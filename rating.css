@@ -1,0 +1,79 @@
+*{box-sizing: border-box;}
+body{
+	margin-left: 500px;
+	margin-top: 200px;
+	background-color: hsl(216, 12%, 8%);
+}
+div{
+	border: 2px solid;
+	width: 400px;
+	height: 320px;
+	text-align: center;
+	padding-top: 40px;
+	border-radius: 10px;
+	background-color: hsl(213, 19%, 18%);
+	border-style: hidden;
+}
+.star{
+	position: fixed;
+	top: 220px;
+	left: 530px;
+	color: hsl(25, 97%, 53%);
+	background-color: hsl(216, 12%, 8%);
+	border-radius: 99999px;
+}
+span{
+	padding: 15px;
+	border-radius: 99999px;
+	height: 2px;
+	color: hsl(217, 12%, 63%);
+	border: 1px solid;
+	background-color: hsl(216, 12%, 8%);
+	border-style: hidden;
+	cursor: pointer;
+}
+span:hover{
+	background-color: hsl(25, 97%, 53%);
+	width: 2px;
+	height: 2px;
+	border-radius: 99999px;
+	color:hsl(0, 0%, 100%) ;
+}
+input{
+	margin-top: 20px;
+	width: 250px;
+	height: 50px;
+	background-color:hsl(25, 97%, 53%) ;
+	color: hsl(0, 0%, 100%);
+	border-radius: 20px;
+	border: hidden;
+	font-weight: bold;
+	cursor: pointer;
+}
+input:hover{
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+}
+h3{
+	color: hsl(0, 0%, 100%);
+}
+p{
+	color: hsl(217, 12%, 63%);
+	font-size: 18px;
+}
+.head{
+	background-color: hsl(217, 12%, 63%);
+	color: hsl(0, 0%, 100%);
+}
+b{
+	color: hsl(25, 97%, 53%);
+	border-radius: 5px;
+	background-color: hsl(216, 12%, 8%);
+}
+h2{
+	color:hsl(0, 0%, 100%) ;
+}
+.thanks{
+	display: none;
+}
+  
